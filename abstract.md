@@ -1,6 +1,6 @@
 # From Me to You: Peer-to-Peer Collaboration With Linked Data
 Jan Kaßel and Dr. Thomas Koentges, Leipzig University  
-September 2019
+December 6, 2019
 
 In recent years, Digital Humanities' collaborative nature has resulted in digitally-native, interdisciplinary research workflows among open data repositories. Tasks shared across disciplines, such as creating corpora, annotating manuscripts, and natural language processing, have arguably never been more accessible. Backed by open standards and protocols, platforms for managing these workflows soon emerged and achieve interoperable data exchange with their scholarly users.
 
