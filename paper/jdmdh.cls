@@ -123,7 +123,7 @@
   \newpage
   \null
   \vspace{-2cm}
-  \includegraphics[height=1.7cm]{jdmdh_logo}\hfill\includegraphics[height=1.7cm]{episcience_logo}
+  % \includegraphics[height=1.7cm]{jdmdh_logo}\hfill\includegraphics[height=1.7cm]{episcience_logo}
   \vskip 1.5em%
   \begin{center}%
   \let \footnote \thanks
