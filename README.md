@@ -4,7 +4,7 @@ Abstract, presentation slides, and proceedings paper for our ([Dr. Thomas Koentg
 
 ### Proceedings Paper
 
-In order to build the paper via LaTeX, if using Basic TeX, you'll need to install the following packages:
+In order to build the paper via LaTeX (likely if using Basic TeX) you'll need to install the following packages:
 
 `sudo tlmgr install preprint titlesec subfigure enumitem pgfplots courier`
 

@@ -1,0 +1,6 @@
+
+# From Me to You: Peer-to-Peer Collaboration With Linked Data
+Jan Kaßel & Dr. Thomas Koentges
+Leipzig University
+
+In recent years, Digital Humanities' collaborative nature acted as a major cause for new digitally-native practices, where interdisciplinary research workflows commonly feed into centralized data repositories. Connecting these repositories, Linked Data allows for fabrication and analysis of semantic relations among data entities. The open Web Annotation specification, again, can target any web resource or Linked Data entity for syntactic and semantic annotating. However, today’s platform-centric infrastructure diminishes the distinction of institutional and individuals’ data. This poses issues of digital ownership, interoperability, and privacy of data stored on centralized services. With Hyperwell, we aim to address these issues by presenting a novel architecture that offers real-time, distributed data synchronization and digital ownership, leveraging contemporary Peer-to-Peer technology. Complementing individual work, institutions provide Hyperwell gateways: These act as a mere mirror of researchers’ data, bridging the Peer-to-Peer network into the web and declaring an individual’s affiliation.
