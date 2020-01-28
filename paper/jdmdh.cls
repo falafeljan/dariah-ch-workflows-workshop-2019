@@ -30,11 +30,16 @@
 \titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}[. \mbox{}]
 \titleformat{\subparagraph}[runin]{\normalfont\normalsize\itshape}{\thesubparagraph}{1em}{}[. \mbox{}]
 
-\titlespacing*{\section}      {0pt}{1.5ex plus .7ex minus .2ex}{-\parskip \advance\parskip by 0pt plus .2ex}
-\titlespacing*{\subsection}   {0pt}{1.5ex plus .7ex minus .2ex}{-\parskip \advance\parskip by 0pt plus .2ex}
-\titlespacing*{\subsubsection}{0pt}{1.5ex plus .7ex minus .2ex}{-\parskip}
-\titlespacing*{\paragraph}    {0pt}{.8ex plus .5ex minus .2ex}{1em}
-\titlespacing*{\subparagraph} {0pt}{.8ex plus .5ex minus .2ex}{1em}
+% \titlespacing*{\section}      {0pt}{1.5ex plus .7ex minus .2ex}{-\parskip \advance\parskip by 0pt plus .2ex}
+% \titlespacing*{\subsection}   {0pt}{1.5ex plus .7ex minus .2ex}{-\parskip \advance\parskip by 0pt plus .2ex}
+% \titlespacing*{\subsubsection}{0pt}{1.5ex plus .7ex minus .2ex}{-\parskip}
+% \titlespacing*{\paragraph}    {0pt}{.8ex plus .5ex minus .2ex}{1em}
+% \titlespacing*{\subparagraph} {0pt}{.8ex plus .5ex minus .2ex}{1em}
+\titlespacing*{\section}      {0pt}{3.2ex}{.2ex}
+\titlespacing*{\subsection}   {0pt}{1.8ex}{.2ex}
+\titlespacing*{\subsubsection}{0pt}{1.8ex}{.2ex}
+\titlespacing*{\paragraph}    {0pt}{1.8ex}{2em}
+\titlespacing*{\subparagraph} {0pt}{1.8ex}{2em}
 
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
