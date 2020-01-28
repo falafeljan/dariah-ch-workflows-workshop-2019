@@ -273,3 +273,8 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# markdown
+_markdown_paper/
+paper.markdown.*
+

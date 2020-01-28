@@ -6,6 +6,14 @@ Abstract, presentation slides, and proceedings paper for our ([Dr. Thomas Koentg
 
 In order to build the paper via LaTeX (likely if using Basic TeX) you'll need to install the following packages:
 
-`sudo tlmgr install preprint titlesec subfigure enumitem pgfplots courier`
+```bash
+sudo tlmgr install \
+  preprint titlesec subfigure \
+  enumitem pgfplots courier \
+  csvsimple gobble paralist \
+  markdown
+```
 
-Also, make sure to have `latexmk` installed (`sudo tlmgr install latexmk`). Then simply run `./paper/build.sh` to build the paper PDF.
+Also, make sure to have `latexmk` installed (`sudo tlmgr install latexmk`). Then simply run `./build.sh` from within the `paper` folder to build the paper PDF. We will invoke `pdflatex` with the `--shell-escape` flag, as this is required for building from the Markdown source.
+
+The contents of the paper are located in `paper/paper.md`.

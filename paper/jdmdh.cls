@@ -15,9 +15,9 @@
 \RequirePackage{parskip}
 \RequirePackage{graphicx}
 \RequirePackage{fancyhdr}
-\lfoot{\parbox[t]{0.5\textwidth}{\scriptsize Journal of Data Mining and Digital Humanities\\%
-  \textbf{ISSN 2416-5999, an open-access journal}}}
-\rfoot{\renewcommand{\UrlFont}{\normalfont\bfseries\scriptsize} \url{http://jdmdh.episciences.org}}
+% \lfoot{\parbox[t]{0.5\textwidth}{\scriptsize Journal of Data Mining and Digital Humanities\\%
+%   \textbf{ISSN 2416-5999, an open-access journal}}}
+% \rfoot{\renewcommand{\UrlFont}{\normalfont\bfseries\scriptsize} \url{http://jdmdh.episciences.org}}
 \rhead{}
 \lhead{}
 \renewcommand{\headrulewidth}{0pt}
@@ -71,8 +71,8 @@
 \theoremstyle{jdmdh}
 \newtheorem{definition}{Definition}
 
-\RequirePackage{enumitem}
-\setlist{noitemsep,topsep=-1ex}
+% \RequirePackage{enumitem}
+% \setlist{noitemsep,topsep=-1ex}
 
 \RequirePackage{listings}
 \lstset{numbers=left,numberstyle=\scriptsize,basicstyle=\small,xleftmargin=3ex,flexiblecolumns=true}
@@ -81,6 +81,8 @@
 \renewcommand\bibsection{\subsection*{\refname}}
 \renewcommand{\bibfont}{\footnotesize}
 \setlength{\bibsep}{0.0pt}
+
+\RequirePackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
 
 
 % ------------------------------------------------------------- %
