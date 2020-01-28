@@ -1,6 +1,3 @@
-## Keywords
-Linked Data; Peer-to-Peer Systems; Data Ownership; Distributed Systems; Annotation
-
 ## Introduction
 
 \strut
