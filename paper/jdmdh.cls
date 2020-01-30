@@ -77,10 +77,11 @@
 \RequirePackage{listings}
 \lstset{numbers=left,numberstyle=\scriptsize,basicstyle=\small,xleftmargin=3ex,flexiblecolumns=true}
 
-\RequirePackage{natbib}
-\renewcommand\bibsection{\subsection*{\refname}}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
 \renewcommand{\bibfont}{\footnotesize}
-\setlength{\bibsep}{0.0pt}
+\setlength{\itemsep}{0.0pt}
 
 \RequirePackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
 

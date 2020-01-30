@@ -11,6 +11,7 @@ sudo tlmgr install \
   preprint titlesec subfigure \
   enumitem pgfplots courier \
   csvsimple gobble paralist \
+  biber biblatex biblatex-apa \
   markdown
 ```
 
