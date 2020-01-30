@@ -81,7 +81,8 @@
 \addbibresource{refs.bib}
 
 \renewcommand{\bibfont}{\footnotesize}
-\setlength{\itemsep}{0.0pt}
+\defbibheading{bibliography}[\bibname]{%
+  \subsection*{#1}}
 
 \RequirePackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
 
