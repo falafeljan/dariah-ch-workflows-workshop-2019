@@ -77,7 +77,10 @@
 \RequirePackage{listings}
 \lstset{numbers=left,numberstyle=\scriptsize,basicstyle=\small,xleftmargin=3ex,flexiblecolumns=true}
 
-\usepackage[style=apa,backend=biber]{biblatex}
+\usepackage[
+  style=apa,
+  backend=biber,
+  hyperref=true]{biblatex}
 \addbibresource{refs.bib}
 
 \renewcommand{\bibfont}{\footnotesize}
