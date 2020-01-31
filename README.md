@@ -1,5 +1,7 @@
 # From Me to You: Peer-to-Peer Collaboration With Linked Data
 
+[![DOI](https://zenodo.org/badge/206756297.svg)](https://zenodo.org/badge/latestdoi/206756297)
+
 Abstract, presentation slides, and proceedings paper for our ([Dr. Thomas Koentges](http://thomaskoentges.io/) and Jan Kaßel) contribution to the 2nd [DARIAH-CH workshop](https://dariah-ch-ws19.sciencesconf.org/resource/page/id/2), "Sharing the Experience: Workflows for the Digital Humanities", December 5-6, 2019, in Neuchâtel, Switzerland. 
 
 Abstract of the proceedings paper:
