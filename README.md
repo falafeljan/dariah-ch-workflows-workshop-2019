@@ -23,3 +23,8 @@ sudo tlmgr install \
 Also, make sure to have `latexmk` installed (`sudo tlmgr install latexmk`). Then simply run `(cd paper; ./build.sh)` to build the paper PDF. We will invoke `pdflatex` with the `--shell-escape` flag, as this is required for building from the Markdown source.
 
 The contents of the paper are located in [`paper/paper.md`](paper/paper.md).
+
+### License
+
+This work is licensed under a Creative Commons [Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
