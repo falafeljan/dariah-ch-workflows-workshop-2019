@@ -14,7 +14,7 @@ Applying this concept to research, we aim to pose a distinction between personal
 
 In the wake of _Web 2.0_—a technological development that emerged after the dot-com bubble burst in 2001—the internet became more open and accessible to the general public. Collaboration in research, and particularly in the Digital Humanities, adopted this trend, as the web tended towards the social sharing of resources on websites \parencite{davidson2008}. Two advancements then materialized within the Digital Humanities: as human expression became increasingly digital, Humanities’ workflows turned digital, too; subsequently, information on the past has been digitized, emphasizing digital practice within the Humanities.
 
-### Eposing History
+### Exposing History
 
 The FAIR principles consist of four imperatives for digital workflows—Findability, Accessibility, Interoperability, and Reusability—, and have been rapidly adopted among scholars. Some best practices continue to go even further by explicitly recommending version control and the recording of additional metadata \parencite{nowogrodzki2020}. Maintaining a log of changes is a convenient, self-documenting step in end-to-end digital workflows.
 
