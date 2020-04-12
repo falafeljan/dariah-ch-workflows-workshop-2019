@@ -1,1 +1,0 @@
-latexmk -pdf paper.tex

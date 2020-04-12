@@ -77,17 +77,33 @@
 \RequirePackage{listings}
 \lstset{numbers=left,numberstyle=\scriptsize,basicstyle=\small,xleftmargin=3ex,flexiblecolumns=true}
 
-\usepackage[
-  style=apa,
-  backend=biber,
-  hyperref=true]{biblatex}
-\addbibresource{refs.bib}
+%\usepackage[
+%  style=apa,
+%  backend=biber,
+%  hyperref=true]{biblatex}
+%\addbibresource{references.bib}
 
+\RequirePackage[square,authoryear]{natbib}
+\renewcommand\bibsection{\subsection*{\refname}}
 \renewcommand{\bibfont}{\footnotesize}
-\defbibheading{bibliography}[\bibname]{%
-  \subsection*{#1}}
+%\defbibheading{bibliography}[\bibname]{%
+%  \subsection*{#1}}
+\setlength{\bibsep}{0.0pt}
+\urlstyle{rm}
 
-\RequirePackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,pipeTables,tableCaptions,hybrid]{markdown}
+\def\UrlBreaks{\do\/\do-}
+
+\RequirePackage[
+  fencedCode,
+  inlineFootnotes,
+  citations,
+  definitionLists,
+  hashEnumerators,
+  smartEllipses,
+  pipeTables,
+  tableCaptions,
+  hybrid
+]{markdown}
 
 
 % ------------------------------------------------------------- %

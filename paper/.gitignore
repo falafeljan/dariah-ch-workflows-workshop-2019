@@ -278,3 +278,6 @@ TSWLatexianTemp*
 _markdown_paper/
 paper.markdown.*
 
+# paper build
+paper.pdf
+
