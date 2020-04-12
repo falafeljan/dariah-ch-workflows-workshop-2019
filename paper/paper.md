@@ -25,7 +25,7 @@ With pen-and-paper annotation, one’s expression is basically unlimited: lines,
 
 Published by the World Wide Web Consortium (W3C), the Web Annotation specification by [@sanderson2013] is built upon an ontology that is expected to be as versatile as possible, covering annotation schemes such as the above by providing varieties of target selection mechanisms and content types. The fundamental components of an annotation within this ontology are its target (a web resource) and its body (an entity). By using semantic expressions, an annotation body can convey complex structures, such as their own motivation (for example, editing a passage) and their relations to other objects (for example, referring to a particular person). Such structures could meet the semantic requirements of digital datasets in the humanities, such as gazetteers.
 
-## Personal annotations with hyperwell
+## Personal annotations with Hyperwell
 
 With our work on personal annotation, Hyperwell, we aim to address several concerns at once. Hyperwell imposes a clear architectural distinction between _personal_ and _institutional_ work enabled by leveraging peer-to-peer technology. We introduce the notion of a digital, personal notebook, residing on individuals’ devices. Such a notebook is a collection of annotations on a single resource and complies with the [@web-anno-data-model].
 
