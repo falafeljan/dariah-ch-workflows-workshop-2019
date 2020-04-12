@@ -77,17 +77,9 @@
 \RequirePackage{listings}
 \lstset{numbers=left,numberstyle=\scriptsize,basicstyle=\small,xleftmargin=3ex,flexiblecolumns=true}
 
-%\usepackage[
-%  style=apa,
-%  backend=biber,
-%  hyperref=true]{biblatex}
-%\addbibresource{references.bib}
-
 \RequirePackage[square,authoryear]{natbib}
 \renewcommand\bibsection{\subsection*{\refname}}
 \renewcommand{\bibfont}{\footnotesize}
-%\defbibheading{bibliography}[\bibname]{%
-%  \subsection*{#1}}
 \setlength{\bibsep}{0.0pt}
 \urlstyle{rm}
 
@@ -110,7 +102,7 @@
 
 \newcommand{\@corrauthor}{}
 
-\newcommand{\corrauthor}[2]{\renewcommand{\@corrauthor}{Corresponding author: #1 \if\relax#2\relax\else , \texttt{#2} \fi}}
+\newcommand{\corrauthor}[2]{\renewcommand{\@corrauthor}{Corresponding author: #1\if\relax#2\relax\else, #2\fi}}
 
 % maketitle identical to standard article title, except for pagestyle
 \renewcommand\maketitle{\par
