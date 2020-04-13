@@ -1,4 +1,4 @@
-pdf:
+pdf: paper.tex paper.md
 	latexmk -pdf paper.tex
 
 clean:
